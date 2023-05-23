@@ -11,6 +11,7 @@ public class Main {
 
 
         //Factory: ComputerFactory
+        // only need to pass in the brand name for the factory class to create the computer
         Computer hComputer2 =  ComputerFactory.createComputer("hp");
         Computer appleComputer2 = ComputerFactory.createComputer("apple");
         Computer asusComputer2 =  ComputerFactory.createComputer("asus");
